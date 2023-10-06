@@ -60,5 +60,3 @@ export async function disconnectDB(){
     }
 }
 
-connectDB();
-disconnectDB();
