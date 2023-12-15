@@ -30,5 +30,5 @@ TodoSchema.pre('save', function(next){
     next();
 });
 
-const Todo = mongoose.model('Todo', TodoSchema);
-export default Todo;
+const Todos = mongoose.model('Todos', TodoSchema);
+export default Todos;
